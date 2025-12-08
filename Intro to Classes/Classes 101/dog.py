@@ -1,9 +1,9 @@
-﻿class Dog:
+﻿class Dog_Class:
     def __init__(self):
         self.name = ""
 
     def give_name(self):
-        self.name = input(self.name)
+        self.name = input("Whats your dogs name?: " + self.name)
 
     def bark(self):
         print(self.name + " says woof!")
